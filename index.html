@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Compiler</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Compile your Html, CSS and JavaScript Code</h1>
+        <p>Here is a simple compiler to compile your code with greater ease. Happy Codding!!!</p>
+    </div>
+    <div class="container">
+        <div class="editor">
+            <div class="buttons">
+                <button class="button" id="html" data-lang="html">HTML</button>
+                <button class="button" id="css" data-lang="css">CSS</button>
+                <button class="button" id="js" data-lang="js">JavaScript</button>
+                <button class="run-code" id="runCode">Run Code</button>
+            </div>
+            <textarea id="htmlEditor" class="code-editor"></textarea>
+
+            <textarea id="cssEditor" class="code-editor"></textarea>
+
+            <textarea id="jsEditor" class="code-editor"></textarea>
+        </div>
+        <div class="preview">
+            <div class="preview-text">
+                <h2>Preview</h2>
+            </div>
+            <iframe id="previewFrame"></iframe>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <h1>Created with &#10084 by Madiha Malghani</h1>
+    </div>
+
+</body>
+
+</html>
